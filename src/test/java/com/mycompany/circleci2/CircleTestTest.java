@@ -46,7 +46,7 @@ public class CircleTestTest {
         int n = 10;
         int y = 12;
         CircleTest instance = new CircleTest();
-        int expResult = 22;
+        int expResult = 23;
         int result = instance.sum(n, y);
         System.out.println(result + "    " + expResult);
         org.junit.Assert.assertEquals(expResult, result);
